@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424558;
+    color: white;
+}
+
+.clock {
+    text-align: center;
+}
+
+.time {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.date-time {
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .time {
+        font-size: 50px;
+    }
+}
